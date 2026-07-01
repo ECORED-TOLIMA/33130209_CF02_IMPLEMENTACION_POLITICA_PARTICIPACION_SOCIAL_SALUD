@@ -151,7 +151,7 @@
         img(src='@/assets/curso/temas/tema1/img27.svg', alt='')
       .col-lg-9
         p.mb-0 Bajo esta lógica, las metodologías se constituyen en instrumentos operativos que organizan la participación desde la identificación de necesidades hasta el seguimiento de las acciones, fortaleciendo la capacidad de incidencia de la comunidad en los procesos de decisión en salud.
-    p.mb-4 Bajo esta lógica, las metodologías se constituyen en instrumentos operativos que organizan la participación desde la identificación de necesidades hasta el seguimiento de las acciones, fortaleciendo la capacidad de incidencia de la comunidad en los procesos de decisión en salud.
+    p.mb-4 Para comprender mejor cómo se organizan los procesos participativos en salud, la siguiente tabla presenta algunas metodologías de gestión utilizadas en los territorios. En ella se describe cada metodología, su propósito principal y una forma de aplicación en salud, con el fin de reconocer cómo estas herramientas apoyan la identificación de necesidades, la construcción de acuerdos, el fortalecimiento de capacidades y el seguimiento de las acciones comunitarias e institucionales.
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -193,6 +193,10 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Estos aportes permiten comprender que las metodologías de gestión son herramientas prácticas para organizar la participación social en salud. Su valor pedagógico está en orientar el paso de la reflexión comunitaria a la acción planificada, con procesos más claros, corresponsables y ajustados a las realidades de cada territorio.
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        .cajon.color-primario.p-4
+          p.mb-0 Las metodologías de gestión ayudan a que la participación social en salud tenga una ruta clara de trabajo. En Colombia, su aplicación facilita que la comunidad, las instituciones y las organizaciones sociales definan prioridades, construyan acuerdos y realicen seguimiento a las acciones desarrolladas en el territorio.
     p.mb-0 Una vez reconocidas las metodologías que orientan la organización de los procesos participativos, es necesario comprender cómo se definen las estrategias en salud. En Colombia, estas estrategias permiten establecer el propósito de la intervención, identificar los actores institucionales y comunitarios, y organizar líneas de trabajo que favorezcan la participación efectiva en municipios, departamentos y comunidades del país.
 </template>
 
@@ -315,9 +319,9 @@ export default {
         figure: require('@/assets/curso/temas/tema1/img24.png'),
         titulo: 'Alianzas comunitarias',
         texto:
-          'corresponden a acuerdos de colaboración formales o informales entre instituciones, líderes, organizaciones sociales y ciudadanía. Estas alianzas articulan intereses y recursos para ampliar el alcance de las acciones en salud y favorecer la sostenibilidad de los procesos participativos.',
+          'Corresponden a acuerdos de colaboración formales o informales entre instituciones, líderes, organizaciones sociales y ciudadanía. Estas alianzas articulan intereses y recursos para ampliar el alcance de las acciones en salud y favorecer la sostenibilidad de los procesos participativos.',
         ejemplo:
-          'Euna asociación de usuarios, una junta de acción comunal y una institución de salud acuerdan realizar seguimiento a la calidad de la atención y presentar propuestas de mejora.',
+          'En una asociación de usuarios, una junta de acción comunal y una institución de salud acuerdan realizar seguimiento a la calidad de la atención y presentar propuestas de mejora.',
       },
     ],
     metodologias: [

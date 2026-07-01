@@ -163,7 +163,7 @@
          LineaTiempoD.color-acento-botones
           p(:numero="index + 1" :titulo="aspecto.titulo" v-for="(aspecto, index) in poblacion" :key="aspecto.titulo")
             | {{ aspecto.texto }}
-            | #[b Ejemplo: ] {{ aspecto.ejemplo }}
+            | <br><br> #[b Ejemplo: ] {{ aspecto.ejemplo }}
     p.mb-4 Estos aspectos facilitan el diseño de procesos formativos más inclusivos, accesibles y orientados al fortalecimiento de capacidades reales. En el contexto colombiano, reconocer las características de la población objetivo permite proponer actividades más cercanas a las necesidades de las comunidades, mejorar la comprensión de los contenidos y promover una participación social en salud más activa y pertinente.
     .row.justify-content-center
       .col-lg-10
@@ -341,17 +341,17 @@ export default {
         figure: require('@/assets/curso/temas/tema4/img10.png'),
         titulo: 'Talleres formativos participativos',
         texto:
-          'Permiten aprender mediante actividades prácticas, ejercicios grupales y análisis de situaciones cercanas.',
+          'Permiten aprender mediante actividades prácticas, ejercicios grupales y análisis de situaciones cercanas al contexto de los participantes. Esta estrategia fortalece capacidades para actuar en espacios de participación social en salud.',
         ejemplo:
-          'permiten aprender mediante actividades prácticas, ejercicios grupales y análisis de situaciones cercanas al contexto de los participantes. Esta estrategia fortalece capacidades para actuar en espacios de participación social en salud. Ejemplo: desarrollar un taller donde la comunidad construya una ruta sencilla para presentar solicitudes, quejas o propuestas ante las instituciones de salud.',
+          'desarrollar un taller donde la comunidad construya una ruta sencilla para presentar solicitudes, quejas o propuestas ante las instituciones de salud.',
       },
       {
         figure: require('@/assets/curso/temas/tema4/img11.png'),
         titulo: 'Estudios de caso en salud',
         texto:
-          'Permiten aprender mediante actividades prácticas, ejercicios grupales y análisis de situaciones cercanas al contexto de los participantes. Esta estrategia fortalece capacidades para actuar en espacios de participación social en salud.',
+          'Facilitan el análisis de situaciones concretas relacionadas con acceso, calidad, comunicación, control social o participación comunitaria. Esta estrategia ayuda a identificar problemas, causas, actores involucrados y posibles soluciones. ',
         ejemplo:
-          'facilitan el análisis de situaciones concretas relacionadas con acceso, calidad, comunicación, control social o participación comunitaria. Esta estrategia ayuda a identificar problemas, causas, actores involucrados y posibles soluciones.',
+          'revisar un caso de demora en la atención para reconocer responsabilidades, canales de comunicación y alternativas de solución.',
       },
       {
         figure: require('@/assets/curso/temas/tema4/img12.png'),
@@ -374,28 +374,28 @@ export default {
       {
         titulo: 'Nivel de conocimiento previo',
         texto:
-          'permite identificar qué tanto conocen los participantes sobre participación social en salud, derechos, deberes y mecanismos de control social.',
+          'Permite identificar qué tanto conocen los participantes sobre participación social en salud, derechos, deberes y mecanismos de control social.',
         ejemplo:
           'en una comunidad rural, algunas personas pueden conocer la junta de acción comunal, pero no los espacios formales de participación en salud.',
       },
       {
         titulo: 'Experiencia en participación',
         texto:
-          'ayuda a reconocer si los actores han participado antes en reuniones, comités, veedurías, asociaciones de usuarios o procesos comunitarios.',
+          'Ayuda a reconocer si los actores han participado antes en reuniones, comités, veedurías, asociaciones de usuarios o procesos comunitarios.',
         ejemplo:
           'una asociación de usuarios puede tener experiencia en presentar solicitudes ante una entidad de salud, mientras otros ciudadanos apenas inician su proceso participativo.',
       },
       {
         titulo: 'Condiciones socioculturales',
         texto:
-          'permite adaptar el lenguaje, los ejemplos y las actividades a las características culturales, educativas y sociales de la población.',
+          'Permite adaptar el lenguaje, los ejemplos y las actividades a las características culturales, educativas y sociales de la población.',
         ejemplo:
           'en territorios con población campesina, los contenidos pueden relacionarse con situaciones cotidianas de acceso a servicios, jornadas de salud o atención en veredas.',
       },
       {
         titulo: 'Dinámicas propias del territorio',
         texto:
-          'facilita reconocer las condiciones geográficas, institucionales y comunitarias que influyen en la participación.',
+          'Facilita reconocer las condiciones geográficas, institucionales y comunitarias que influyen en la participación.',
         ejemplo:
           'en zonas rurales dispersas, las estrategias formativas pueden requerir encuentros comunitarios presenciales, horarios flexibles y materiales de fácil consulta.',
       },

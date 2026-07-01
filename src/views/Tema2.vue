@@ -186,7 +186,7 @@ export default {
         figure: require('@/assets/curso/temas/tema2/img8.png'),
         titulo: 'Seguimiento y mejora',
         texto:
-          'permite revisar los avances de la estrategia, valorar sus resultados y realizar ajustes cuando sea necesario. Este proceso fortalece la transparencia y la corresponsabilidad entre actores. Por ejemplo, una mesa de participación puede reunirse periódicamente para verificar compromisos y proponer mejoras en la atención en salud.',
+          'Permite revisar los avances de la estrategia, valorar sus resultados y realizar ajustes cuando sea necesario. Este proceso fortalece la transparencia y la corresponsabilidad entre actores. Por ejemplo, una mesa de participación puede reunirse periódicamente para verificar compromisos y proponer mejoras en la atención en salud.',
       },
     ],
     principios: [

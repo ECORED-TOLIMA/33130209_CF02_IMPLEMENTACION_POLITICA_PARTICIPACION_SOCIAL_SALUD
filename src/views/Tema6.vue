@@ -47,8 +47,8 @@
               img(src='@/assets/curso/temas/tema6/img6.svg', alt='')
             .col-lg-6
               TarjetaAudio.color-primario.mb-3(
-                texto="Instituciones y comunidad: trabajando juntos por la participación en salud"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                texto="¡Salud en acción!"
+                :audio="require('@/assets/curso/temas/audio/Podcast_CF2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
       .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
@@ -180,7 +180,6 @@
             img(src='@/assets/curso/temas/tema6/img22.svg', alt='')
           .col-lg-10
             p.mb-0 Estos elementos permiten comprender que el seguimiento no se limita a revisar actividades terminadas. Su valor está en acompañar el proceso, generar información útil, identificar dificultades a tiempo y fortalecer la transparencia en la gestión de las acciones participativas en salud.
-    p El seguimiento es un proceso sistemático de monitoreo que verifica el desarrollo de las acciones, identifica avances y detecta oportunidades de mejora durante la ejecución.
     .BG06.px-5.p-5
       .row.justify-content-center.mb-4
         .col-lg-8.order-2.order-lg-1
@@ -360,20 +359,20 @@ export default {
           'Consiste en orientar y apoyar a líderes, organizaciones comunitarias y ciudadanía durante el desarrollo de los procesos participativos. Este acompañamiento fortalece capacidades, mejora la comprensión de los mecanismos de participación y promueve una intervención más activa.',
       },
       {
-        titulo: 'Consolidación de redes',
+        titulo: 'Consolidación de redes de participación',
         texto:
           'Permite conectar instituciones, organizaciones sociales y comunidad para sostener el trabajo colaborativo en el tiempo. Estas redes facilitan el intercambio de información, el seguimiento de compromisos y la construcción de soluciones colectivas en salud.',
       },
     ],
     datosSlyder: [
       {
-        titulo: 'Objetivos claros',
+        titulo: 'Objetivos claros y alcanzables',
         texto:
           'Permiten definir el propósito de la estrategia y los resultados que se esperan lograr. En salud, ayudan a orientar las acciones hacia necesidades concretas, como mejorar la participación comunitaria, fortalecer la información ciudadana o promover el seguimiento a compromisos institucionales.',
         imagen: require('@/assets/curso/temas/tema6/img9.png'),
       },
       {
-        titulo: 'Actores y roles',
+        titulo: 'Actores clave y roles',
         texto:
           'Facilitan identificar quiénes participan, qué responsabilidades asumen y cómo se articulan en el proceso. Este aspecto permite vincular instituciones, organizaciones sociales, líderes comunitarios y ciudadanía, evitando duplicidad de esfuerzos y fortaleciendo el trabajo conjunto en el territorio.',
         imagen: require('@/assets/curso/temas/tema6/img10.png'),
@@ -385,7 +384,7 @@ export default {
         imagen: require('@/assets/curso/temas/tema6/img11.png'),
       },
       {
-        titulo: 'Resultados esperados',
+        titulo: 'Acciones y resultados esperados',
         texto:
           'Permiten establecer qué actividades se realizarán y qué cambios se buscan alcanzar. Este componente ayuda a verificar si la estrategia aporta a la participación informada, al control social, a la toma de decisiones y al mejoramiento de la gestión en salud.',
         imagen: require('@/assets/curso/temas/tema6/img12.png'),
@@ -436,7 +435,7 @@ export default {
         figure: require('@/assets/curso/temas/tema6/img18.png'),
         titulo: 'Recurso comunitario',
         texto:
-          'integra saberes, experiencias, capacidades y conocimientos locales de la población. Este recurso permite que las acciones respondan a la realidad del territorio.',
+          'Integra saberes, experiencias, capacidades y conocimientos locales de la población. Este recurso permite que las acciones respondan a la realidad del territorio.',
         ejemplo:
           'Una comunidad campesina informa sobre los horarios adecuados para convocar reuniones.',
         ejemplo1:

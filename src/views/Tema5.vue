@@ -332,7 +332,7 @@ export default {
         num: 'E',
         titulo: 'Evaluar los avances alcanzados',
         texto:
-          'favorece la mejora continua, el control social y la toma de decisiones basada en resultados.',
+          'Favorece la mejora continua, el control social y la toma de decisiones basada en resultados.',
       },
     ],
     formas: [
@@ -491,24 +491,32 @@ export default {
     valoracion: [
       {
         num: 'A',
-        texto: 'Participación activa de la comunidad.',
+        texto:
+          'Participación activa de la comunidad en los espacios de diálogo y decisión. ',
       },
       {
         num: 'B',
-        texto: 'Cumplimiento de acuerdos establecidos.',
+        texto:
+          'Cumplimiento de los acuerdos establecidos entre instituciones y ciudadanía. ',
       },
       {
         num: 'C',
-        texto: 'Seguimiento comunitario a compromisos y acciones.',
+        texto:
+          'Seguimiento comunitario a los compromisos y acciones en salud. ',
       },
       {
         num: 'D',
         texto:
-          'Comprensión de derechos, deberes y mecanismos de participación.',
+          'Mayor comprensión de los derechos, deberes y mecanismos de participación. ',
       },
       {
         num: 'E',
-        texto: 'Acceso a información clara para fortalecer el control social.',
+        texto: 'Acceso a información clara para fortalecer el control social. ',
+      },
+      {
+        num: 'F',
+        texto:
+          'Mejoras visibles en la atención, la comunicación o la respuesta institucional en el territorio.',
       },
     ],
     ejes: [
