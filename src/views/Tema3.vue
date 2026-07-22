@@ -25,7 +25,7 @@
               img(src='@/assets/curso/temas/tema3/img3.svg', alt='')
             .col-lg-9
               p.mb-0 En el contexto colombiano, reconocer los actores y escenarios de participación permite orientar mejor las acciones comunitarias e institucionales. Este análisis ayuda a identificar quiénes pueden aportar información, liderazgo, experiencia territorial o capacidad de gestión, y en qué espacios pueden construirse acuerdos, hacer seguimiento a compromisos y proponer soluciones frente a las necesidades en salud.
-    p.mb-4 Para comprender esta relación, es importante tener en cuenta algunos elementos que facilitan la organización de la participación social en salud
+    p.mb-4 Para comprender esta relación, es importante tener en cuenta algunos elementos que facilitan la organización de la participación social en salud.
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.BG04.p-4(v-for="elemento in elementos" :key="elemento.titulo")
         .row.justify-content-center.mb-3
@@ -33,7 +33,7 @@
             img(:src="elemento.figure" :alt="elemento.titulo")
         br
         h5.text-center {{ elemento.titulo }}
-        p.text-center {{ elemento.texto }}
+        p {{ elemento.texto }}
         br
         br
         br
@@ -128,19 +128,19 @@ export default {
         figure: require('@/assets/curso/temas/tema3/img5.svg'),
         titulo: 'Actores comunitarios',
         texto:
-          'Líderes, organizaciones sociales, asociaciones de usuarios y ciudadanía que aportan necesidades y propuestas.',
+          'Líderes, organizaciones sociales, asociaciones de usuarios y ciudadanía que aportan necesidades, propuestas y experiencias del territorio.',
       },
       {
         figure: require('@/assets/curso/temas/tema3/img6.svg'),
         titulo: 'Escenarios formales',
         texto:
-          'Espacios reconocidos por la normatividad o por la gestión institucional para dialogar y hacer seguimiento.',
+          'Espacios reconocidos por la normatividad o por la gestión institucional para dialogar, concertar y hacer seguimiento.',
       },
       {
         figure: require('@/assets/curso/temas/tema3/img7.svg'),
         titulo: 'Escenarios informales',
         texto:
-          'Encuentros comunitarios, reuniones barriales o espacios locales donde se expresan necesidades.',
+          'Encuentros comunitarios, reuniones barriales o espacios locales donde se expresan necesidades y se construyen propuestas.',
       },
       {
         figure: require('@/assets/curso/temas/tema3/img8.svg'),

@@ -61,7 +61,7 @@
     Separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 6.1 Diseño de estrategias
-    p El diseño de estrategias orienta la planificación de acciones en el territorio, asegurando su alineación con las necesidades de la población y con los lineamientos de la política pública.
+    p El diseño de estrategias en participación social en salud se configura como una fase determinante que orienta la planificación de las acciones a implementar en el territorio, asegurando su alineación con las necesidades de la población y los lineamientos de la política pública. Este proceso implica la estructuración intencional de intervenciones que integran objetivos, actores, recursos y metodologías, con el propósito de fortalecer la incidencia de la ciudadanía en la gestión del sistema de salud.
     .row.justify-content-center.align-items-center.bg4.mb-4
       .col-lg-5
         figure
@@ -86,25 +86,25 @@
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 1
-          p.text-center
+          p
             b Definir objetivos claros y alcanzable.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 2
-          p.text-center
+          p
             b Identificar actores clave y sus roles.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-5.h-100
           .tarjeta-numerada__numero
             .h2 3
-          p.text-center
+          p
             b Seleccionar metodologias pertinentes.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-adicional-1.p-5.h-100
           .tarjeta-numerada__numero
             .h2 4
-          p.text-center
+          p
             b Establecer acciones y resultados esperados.
     p.mb-4 Además de reconocer los componentes del diseño estratégico, es importante precisar cómo se aplican en la organización de acciones participativas en salud. En el contexto colombiano, este diseño debe responder a las necesidades de la población, las capacidades de los actores y las condiciones reales del territorio, para evitar acciones aisladas o poco sostenibles.
     SlyderB.p-5.tarjeta.color-secundario(:datos="datosSlyder")
@@ -260,7 +260,7 @@
               img(:src="fase.figure", alt='Texto que describa la imagen')
         br
         h5.text-center {{ fase.titulo }}
-        p.mb-5.text-center {{ fase.texto }}
+        p.mb-5 {{ fase.texto }}
     p.mb-4 Estas acciones muestran que el control social no se limita a vigilar, sino que también permite construir, proponer y mejorar. Por ello, su ejercicio fortalece la corresponsabilidad entre ciudadanía e instituciones en la gestión de la salud en Colombia.
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(

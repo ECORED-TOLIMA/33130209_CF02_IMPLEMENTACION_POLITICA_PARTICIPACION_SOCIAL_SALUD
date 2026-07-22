@@ -3,7 +3,7 @@ export default {
     Name:
       'Implementación y fortalecimiento de la participación ciudadana en salud',
     Description:
-      'Este componente aborda la gestión, implementación y fortalecimiento de estrategias de participación social en salud, enfocándose en la articulación de actores, el diseño de metodologías, la comunicación, la educación y el control social, con el fin de promover una participación efectiva en la toma de decisiones y en la garantía del derecho a la salud.',
+      'Este componente aborda la implementación y el fortalecimiento de estrategias de participación ciudadana en salud, mediante la articulación de actores, la aplicación de metodologías, la educación, la comunicación y el control social. Estos elementos permiten organizar las acciones, administrar los recursos y realizar su seguimiento, con el fin de promover una participación efectiva en la toma de decisiones y contribuir a la garantía del derecho a la salud.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -33,7 +33,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Gestión de la participación en salud',
+        titulo: 'Organización de la participación social en salud',
         desarrolloContenidos: true,
         subMenu: [
           {

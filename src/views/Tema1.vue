@@ -5,25 +5,25 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Gestión de la participación en salud
+      h1 Organización de la participación social en salud
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La gestión de la participación en salud se configura como un proceso sistemático orientado a planificar, organizar y dinamizar la intervención de la ciudadanía en los asuntos relacionados con el sistema de salud. Este proceso implica estructurar mecanismos y estrategias que permitan la interacción efectiva entre la comunidad, las organizaciones sociales y las instituciones, con el fin de incidir en la toma de decisiones y en la gestión de los servicios de salud (Ministerio de Salud y Protección Social, 2017).
+        p.mb-0 La organización de la participación social en salud es un proceso sistemático que permite planificar, coordinar y desarrollar la intervención de la ciudadanía en los asuntos relacionados con el sistema de salud. Este proceso establece mecanismos y estrategias para facilitar la interacción entre la comunidad, las organizaciones sociales y las instituciones, con el propósito de incidir en la toma de decisiones y contribuir al mejoramiento de los servicios de salud (Ministerio de Salud y Protección Social, 2017).
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .p-4.cajon.color-secundario
-          p.mb-0 Desde esta perspectiva, la gestión trasciende la promoción de la participación como un ejercicio aislado, para consolidarse como una función estratégica que articula actores, recursos y metodologías en contextos territoriales específicos. Su desarrollo requiere la identificación de necesidades, la priorización de problemáticas y la construcción de respuestas colectivas, garantizando condiciones para una participación informada, organizada y con capacidad de incidencia.
-    p.mb-4 La gestión de la participación en salud fortalece la relación entre la ciudadanía, las instituciones y las organizaciones sociales. Su propósito es organizar procesos participativos que permitan tomar decisiones más transparentes, pertinentes y orientadas a las necesidades reales de la población. Para comprender su aporte, se destacan los siguientes aspectos:
+          p.mb-0 Desde esta perspectiva, la organización de la participación trasciende la realización de acciones aisladas, pues articula actores, recursos y metodologías de acuerdo con las características de cada territorio. Su desarrollo requiere identificar necesidades, priorizar problemáticas y construir respuestas colectivas que favorezcan una participación informada, organizada y con capacidad de incidencia.
+    p.mb-4 La organización de la participación social en salud fortalece la relación entre la ciudadanía, las instituciones y las organizaciones sociales. Su propósito es facilitar procesos participativos que permitan tomar decisiones transparentes, pertinentes y acordes con las necesidades de la población. Para comprender su aporte, se destacan los siguientes aspectos:
     SlyderF.mb-4(columnas="col-lg-6 col-xl-4 ")
       .tarjeta.BG04.bg1.p-4(v-for="item in aportes" :key="item.titulo").h-100
         .row.justify-content-center.mb-3
           .col-6
             img(:src="item.figure" :alt="item.titulo")
         h5.text-center {{ item.titulo }}
-        p.text-center {{ item.texto }}
+        p {{ item.texto }}
         br
         br
         br
@@ -48,7 +48,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img9.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La gestión de la participación en salud comprende el conjunto de acciones orientadas a planificar, coordinar y evaluar los procesos mediante los cuales la ciudadanía interviene en el sistema de salud. Su alcance involucra la organización de actores, la definición de estrategias y la implementación de mecanismos que posibiliten la incidencia en la toma de decisiones.
+        p.mb-0 La gestión de la participación en salud comprende el conjunto de acciones orientadas a planificar, coordinar y evaluar los procesos mediante los cuales la ciudadanía interviene en el sistema de salud. Su alcance involucra la organización de actores, la definición de estrategias y la implementación de mecanismos que posibiliten la incidencia en la toma de decisiones, en coherencia con la Política de Participación Social en Salud (Ministerio de Salud y Protección Social, 2017).
     p.mb-4 Este enfoque reconoce que la intervención ciudadana trasciende la asistencia a espacios formales, al incorporar la capacidad de las comunidades para analizar problemáticas, proponer alternativas y realizar seguimiento a las acciones en salud. La gestión participativa se desarrolla en distintos niveles que articulan las dinámicas comunitarias con la gestión institucional y territorial. Para comprender su aplicación, se presentan a continuación los niveles que la estructuran:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-2.order-lg-1
@@ -86,7 +86,7 @@
               .row.justify-content-center.mb-3
                 .col-5
                   img(:src="objetivo.figure", alt="alt").img100.m-auto
-              p.text-center.mb-0 {{ objetivo.texto }}
+              p.mb-0 {{ objetivo.texto }}
     .row.justify-content-center.mb-4
       .col-lg-10
         p.mb-0 En conjunto, estos objetivos permiten estructurar procesos participativos más organizados, pertinentes y orientados a resultados, en los que la ciudadanía no solo interviene, sino que incide de manera efectiva en la gestión del sistema de salud. Para lograr este propósito, resulta fundamental fortalecer los mecanismos de articulación entre los diferentes actores, a través de procesos de coordinación y construcción de alianzas que faciliten el trabajo conjunto y la sostenibilidad de la participación en los territorios.
@@ -112,7 +112,7 @@
           .tarjeta.color-primario.w-100
             .p-4
               h4.text-center {{ forma.titulo }}
-              p.mb-0.text-center {{ forma.texto }}
+              p.mb-0 {{ forma.texto }}
     p.mb-4 La coordinación y las alianzas en la gestión de la participación en salud permiten integrar actores, recursos y capacidades para desarrollar procesos participativos más organizados. Su propósito es facilitar la acción conjunta entre instituciones, sectores sociales, organizaciones comunitarias y ciudadanía, de manera que las acciones en salud sean coherentes, complementarias y orientadas al fortalecimiento del derecho a la salud.
     p.mb-4 Para comprender su aplicación, se presentan las siguientes formas de articulación:
     .BG03.px-5.p-5.mb-4
@@ -170,7 +170,7 @@
                 th Aplicación en salud
             tbody
               tr(v-for="fila in metodologias" :key="fila.metodologia")
-                td.text-bold {{ fila.metodologia }}
+                td {{ fila.metodologia }}
                 td {{ fila.descripcion }}
                 td {{ fila.proposito }}
                 td {{ fila.aplicacion }}
@@ -192,11 +192,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img29.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Estos aportes permiten comprender que las metodologías de gestión son herramientas prácticas para organizar la participación social en salud. Su valor pedagógico está en orientar el paso de la reflexión comunitaria a la acción planificada, con procesos más claros, corresponsables y ajustados a las realidades de cada territorio.
+        p.mb-0 Las metodologías de gestión ayudan a que la participación social en salud tenga una ruta clara de trabajo. En Colombia, su aplicación facilita que la comunidad, las instituciones y las organizaciones sociales definan prioridades, construyan acuerdos y realicen seguimiento a las acciones desarrolladas en el territorio.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0 Las metodologías de gestión ayudan a que la participación social en salud tenga una ruta clara de trabajo. En Colombia, su aplicación facilita que la comunidad, las instituciones y las organizaciones sociales definan prioridades, construyan acuerdos y realicen seguimiento a las acciones desarrolladas en el territorio.
+          p.mb-0 Estos aportes permiten comprender que las metodologías de gestión son herramientas prácticas para organizar la participación social en salud. Su valor pedagógico está en orientar el paso de la reflexión comunitaria a la acción planificada, con procesos más claros, corresponsables y ajustados a las realidades de cada territorio.
     p.mb-0 Una vez reconocidas las metodologías que orientan la organización de los procesos participativos, es necesario comprender cómo se definen las estrategias en salud. En Colombia, estas estrategias permiten establecer el propósito de la intervención, identificar los actores institucionales y comunitarios, y organizar líneas de trabajo que favorezcan la participación efectiva en municipios, departamentos y comunidades del país.
 </template>
 
@@ -209,19 +209,19 @@ export default {
         figure: require('@/assets/curso/temas/tema1/img2.svg'),
         titulo: 'Gobernanza en salud',
         texto:
-          'Favorece la coordinación entre instituciones y comunidad para orientar decisiones públicas más claras y responsables.',
+          'Favorece la coordinación entre instituciones y comunidad para orientar decisiones públicas más claras, responsables y acordes con las necesidades del territorio.',
       },
       {
         figure: require('@/assets/curso/temas/tema1/img3.svg'),
         titulo: 'Diálogo y concertación',
         texto:
-          'Promueve espacios de encuentro para expresar necesidades, proponer soluciones y construir acuerdos colectivos.',
+          'Promueve espacios de encuentro donde los actores sociales pueden expresar necesidades, proponer soluciones y construir acuerdos colectivos en torno a la salud.',
       },
       {
         figure: require('@/assets/curso/temas/tema1/img4.svg'),
         titulo: 'Control social',
         texto:
-          'Permite que la ciudadanía realice seguimiento a la gestión pública, al uso de recursos y a los compromisos institucionales.',
+          'Permite que la ciudadanía realice seguimiento a la gestión pública, al uso de los recursos y al cumplimiento de los compromisos institucionales.',
       },
       {
         figure: require('@/assets/curso/temas/tema1/img5.svg'),
@@ -233,7 +233,7 @@ export default {
         figure: require('@/assets/curso/temas/tema1/img6.svg'),
         titulo: 'Equidad e inclusión',
         texto:
-          'Impulsa procesos participativos que reconocen la diversidad y reducen barreras de acceso a la toma de decisiones.',
+          'Impulsa procesos participativos que reconocen la diversidad de la población y buscan reducir barreras de acceso a la toma de decisiones.',
       },
     ],
     niveles: [

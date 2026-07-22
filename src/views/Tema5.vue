@@ -59,7 +59,7 @@
                   th(style="width:50%") Descripción
               tbody
                 tr(v-for="fila in acciones" :key="fila.elemento")
-                  td.text-bold {{ fila.tipo }}
+                  td {{ fila.tipo }}
                   td {{ fila.elemento }}
                   td {{ fila.descripcion }}
     p.mb-0 La articulación entre acciones y mecanismos permite consolidar procesos participativos más efectivos, al integrar la intervención directa de la ciudadanía con el acceso a escenarios formales de decisión. Esta relación fortalece la gobernanza en salud, promueve el control social y contribuye a que las decisiones respondan de manera más pertinente a las necesidades de la población.
@@ -95,7 +95,7 @@
                   th(style="width:30%") Implicación
               tbody
                 tr(v-for="fila in factores" :key="fila.elemento")
-                  td.text-bold {{ fila.categoria }}
+                  td {{ fila.categoria }}
                   td {{ fila.elemento }}
                   td {{ fila.descripcion }}
                   td {{ fila.implicacion }}
@@ -138,7 +138,7 @@
           
         br
         h5.text-center {{ fase.titulo }}
-        p.mb-5.text-center {{ fase.texto }}
+        p.mb-5 {{ fase.texto }}
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-2.order-lg-1
         p.mb-4 Esto implica evaluar en qué medida las acciones participativas logran influir en la planificación, ejecución y seguimiento de las políticas públicas en salud. En el contexto colombiano, esta evaluación permite reconocer si la participación ciudadana aporta a procesos más transparentes, incluyentes y pertinentes para cada territorio.
@@ -205,7 +205,7 @@
                   th Resultado esperado
               tbody
                 tr(v-for="eje in ejes" :key="eje.eje")
-                  td.text-bold {{ eje.eje }}
+                  td {{ eje.eje }}
                   td {{ eje.proposito }}
                   td
                     ul.lista-ul.mb-0
@@ -228,7 +228,7 @@
             img(:src="item.figure" :alt="item.titulo")
         br
         h5.text-center {{ item.titulo }}
-        p.mb-5.text-center {{ item.texto }}
+        p.mb-5 {{ item.texto }}
     p.mb-4 Estos aspectos ayudan a que los ejes de participación se conviertan en acciones aplicables en el territorio. Su desarrollo fortalece la organización comunitaria, mejora la relación entre ciudadanía e instituciones y promueve procesos participativos más claros, incluyentes y sostenibles.
     .row.justify-content-center
       .col-lg-10

@@ -51,7 +51,7 @@
               img(:src="fase.figure", alt='Texto que describa la imagen')
         br
         h5.text-center {{ fase.titulo }}
-        p.mb-0.text-center {{ fase.texto }}
+        p.mb-0 {{ fase.texto }}
         br
     p.mb-4 Estas estrategias se desarrollan mediante metodologías activas que integran el aprendizaje con la acción. De esta manera, los actores pueden analizar su entorno, identificar problemáticas, proponer alternativas y participar de forma informada en la gestión del sistema de salud.
     p.mb-4 Entre las principales estrategias pedagógicas aplicables a los procesos de formación para la participación en salud se encuentran:
@@ -115,25 +115,25 @@
         .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 1
-          p.text-center
+          p
             b Organizar los procesos de formación de manera coherente.
       .col-lg-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 2
-          p.text-center
+          p
             b Adaptar los contenidos al contexto territorial.
       .col-lg-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-5.h-100
           .tarjeta-numerada__numero
             .h2 3
-          p.text-center
+          p
             b Definir metodologias acordes con el perfil de los participantes.
       .col-lg-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-adicional-1.p-5.h-100
           .tarjeta-numerada__numero
             .h2 4
-          p.text-center
+          p
             b Establecer mecanismos de evaluacion del aprendizaje.
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -197,7 +197,7 @@
                 .col-7
                   img(:src="aspecto.figure", alt="alt").img100.m-auto
               br
-              p.text-center.mb-5 {{ aspecto.texto }}
+              p.mb-5 {{ aspecto.texto }}
     .row.justify-content-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4
@@ -253,7 +253,7 @@
                   th Ejemplo
               tbody
                 tr(v-for="pieza in piezas" :key="pieza.tipo")
-                  td.text-bold {{ pieza.tipo }}
+                  td {{ pieza.tipo }}
                   td {{ pieza.proposito }}
                   td {{ pieza.ejemplo }}
     .row.justify-content-center.align-items-center.mb-4
@@ -268,7 +268,7 @@
             img(:src="item.figure" :alt="item.titulo")
         br
         h5.text-center {{ item.titulo }}
-        p.mb-5.text-center {{ item.texto }}
+        p.mb-5 {{ item.texto }}
     .row.justify-content-center
       .col-lg-10
         p.mb-4 Estos aspectos permiten que las piezas comunicativas no se limiten a transmitir información, sino que apoyen procesos de participación más claros, incluyentes y cercanos a la comunidad. En el contexto colombiano, su uso adecuado fortalece el diálogo entre instituciones, organizaciones sociales y ciudadanía, y facilita la apropiación de los mensajes relacionados con la salud.

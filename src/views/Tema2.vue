@@ -92,7 +92,7 @@
       figure.mb-4
         img(src='@/assets/curso/temas/tema2/img14.png', alt='')
       p Las estrategias de participación en salud pueden clasificarse de acuerdo con el ámbito de intervención y el tipo de articulación entre actores, lo que permite organizar las acciones de manera más estructurada y facilitar su implementación en los territorios. Esta clasificación no establece divisiones rígidas, sino que ofrece un marco de comprensión para analizar cómo se configuran las dinámicas participativas en función de los objetivos, las capacidades institucionales y las condiciones del contexto.
-      p.mb-4 Para facilitar su comprensión, se presentan los principales tipos de estrategias, con una definición breve y un ejemplo aplicado a situaciones que pueden presentarse en municipios, departamentos y comunidades del país
+      p.mb-4 Para facilitar su comprensión, se presentan los principales tipos de estrategias, con una definición breve y un ejemplo aplicado a situaciones que pueden presentarse en municipios, departamentos y comunidades del país.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg.order-2.order-lg-1
@@ -127,7 +127,7 @@
               img(:src="fase.figure", alt='Texto que describa la imagen')
           
         h5.text-center {{ fase.titulo }}
-        p.mb-0.text-center {{ fase.texto }}
+        p.mb-0 {{ fase.texto }}
         br
     .row.justify-content-center.mb-4
       .col-lg-10
@@ -213,7 +213,7 @@ export default {
       {
         titulo: 'Enfoque diferencial',
         texto:
-          'Permite adaptar las estrategias a las características sociales, culturales, territoriales y poblacionales de cada comunidad. Su aplicación evita acciones generales que no responden a las condiciones reales de las personas. Ejemplo: una estrategia de comunicación en salud se ajusta para población rural, comunidades indígenas, personas mayores o personas con discapacidad',
+          'Permite adaptar las estrategias a las características sociales, culturales, territoriales y poblacionales de cada comunidad. Su aplicación evita acciones generales que no responden a las condiciones reales de las personas. Ejemplo: una estrategia de comunicación en salud se ajusta para población rural, comunidades indígenas, personas mayores o personas con discapacidad.',
       },
       {
         titulo: 'Enfoque territorial',

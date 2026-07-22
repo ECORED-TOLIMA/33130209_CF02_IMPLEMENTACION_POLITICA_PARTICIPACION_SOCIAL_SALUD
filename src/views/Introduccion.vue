@@ -14,7 +14,7 @@
           img(src="@/assets/curso/temas/intro/img1.png", alt="Personas uniendo sus manos en señal de cooperación")
       .col-lg-7(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 La gestión de la participación social en salud representa un componente estratégico para consolidar sistemas de salud más equitativos, eficientes y centrados en las necesidades de la población. Desde los fundamentos normativos de la participación social en salud, este contenido aborda la forma en que la participación se organiza, se gestiona y se implementa en los territorios mediante estrategias, metodologías y mecanismos concretos.
+          p.mb-0 La implementación y el fortalecimiento de la participación ciudadana en salud constituyen procesos estratégicos para consolidar sistemas de salud más equitativos, eficientes y centrados en las necesidades de la población. A partir de los fundamentos normativos de la participación social en salud, este componente aborda la organización y el desarrollo de acciones participativas en los territorios mediante estrategias, metodologías y mecanismos concretos.
         p.mb-0 En este sentido, la participación social deja de ser un principio teórico para convertirse en un proceso operativo que requiere planificación, articulación entre actores, desarrollo de capacidades y uso adecuado de herramientas pedagógicas y comunicativas. La gestión efectiva de estos procesos permite fortalecer la toma de decisiones en salud, optimizar el uso de los recursos públicos y promover el ejercicio activo del control social por parte de la ciudadanía.
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
