@@ -31,13 +31,13 @@
         p.mb-0 Desde una perspectiva integral, la relación entre implementación, gestión y control social permite fortalecer la participación informada, la toma de decisiones concertadas y la evaluación permanente de las acciones en salud. Esta articulación favorece intervenciones más pertinentes, organizadas y sostenibles, de acuerdo con las necesidades de la población y las dinámicas de cada territorio.
     .row.justify-content-center.mb-4
       .col-lg-10
-        .cajon.color-secundario.p-4.mb-4 
+        .cajon.color-secundario.p-4
           .row
             .col-lg-auto.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema6/img4.svg', alt='')
             .col-lg-9
               p.mb-0 La implementación, la gestión y el control social permiten que la participación en salud pase de la planeación a la acción. Su articulación fortalece la organización comunitaria, el seguimiento de compromisos y la construcción de respuestas pertinentes para cada territorio.
-        p.mb-0 En consecuencia, la adecuada integración de estos componentes permite no solo ejecutar acciones, sino también garantizar su seguimiento, evaluación y mejora continua, fortaleciendo el ejercicio del derecho a la salud y la participación social en Colombia.
+    p.mb-4 En consecuencia, la adecuada integración de estos componentes permite no solo ejecutar acciones, sino también garantizar su seguimiento, evaluación y mejora continua, fortaleciendo el ejercicio del derecho a la salud y la participación social en Colombia.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-2.order-lg-1
         p Con el propósito de profundizar en la forma en que la participación ciudadana pasa de la planeación a la acción, se propone el siguiente recurso de audio. Este material explica, de manera clara y contextualizada, cómo la implementación, la gestión, el seguimiento, la toma de decisiones y el control social permiten fortalecer la articulación entre instituciones, organizaciones sociales y comunidad, para construir respuestas acordes con las necesidades de los territorios colombianos.

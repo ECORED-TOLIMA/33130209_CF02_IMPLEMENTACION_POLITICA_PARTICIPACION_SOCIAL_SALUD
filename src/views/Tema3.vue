@@ -73,10 +73,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema3/img13.svg', alt='Figura 2. Proceso formativo para la participación social en salud. Pirámide que representa el proceso formativo para la participación social. Incluye cuatro niveles: información básica sobre derechos en salud, comprensión del sistema de salud, desarrollo de liderazgo comunitario e incidencia en decisiones públicas.')
+                img(src='@/assets/curso/temas/tema3/img13.svg', alt='Mapa de actores en la participación en salud que muestra cómo diferentes actores del territorio colombiano se relacionan para fortalecer la gestión en salud. En el centro se ubica la participación en salud como espacio de articulación, diálogo y toma de decisiones integradas. A su alrededor se presentan actores institucionales, sociales, comunitarios e intersectoriales, quienes aportan funciones, conocimientos, propuestas, control social y acciones conjuntas para responder a las necesidades de la población. ')
         .d-block.d-lg-none.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/temas/tema3/img13.svg', alt='Figura 2. Proceso formativo para la participación social en salud. Pirámide que representa el proceso formativo para la participación social. Incluye cuatro niveles: información básica sobre derechos en salud, comprensión del sistema de salud, desarrollo de liderazgo comunitario e incidencia en decisiones públicas.')
+            img(src='@/assets/curso/temas/tema3/img13.svg', alt='Mapa de actores en la participación en salud que muestra cómo diferentes actores del territorio colombiano se relacionan para fortalecer la gestión en salud. En el centro se ubica la participación en salud como espacio de articulación, diálogo y toma de decisiones integradas. A su alrededor se presentan actores institucionales, sociales, comunitarios e intersectoriales, quienes aportan funciones, conocimientos, propuestas, control social y acciones conjuntas para responder a las necesidades de la población. ')
     p La construcción del mapa de actores permite disponer de una base organizada para la gestión de la participación, facilitando la articulación entre actores y la planificación de acciones en salud. A partir de este insumo, resulta necesario profundizar en el análisis e interpretación de los actores, con el fin de comprender su nivel de influencia, intereses y capacidad de incidencia en los procesos participativos.
     
     Separador

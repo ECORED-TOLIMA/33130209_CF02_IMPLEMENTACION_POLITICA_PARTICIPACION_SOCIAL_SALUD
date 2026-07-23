@@ -30,7 +30,7 @@
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 En este sentido, la articulación entre educación y comunicación permite consolidar procesos participativos más efectivos, al combinar el desarrollo de capacidades con la generación de espacios de diálogo e intercambio de información. Esta integración resulta clave para promover una ciudadanía informada, crítica y comprometida con la gestión del sistema de salud, en concordancia con los lineamientos de la Política de Participación Social en Salud (Ministerio de Salud y Protección Social, 2017).
-        p.mb-0 A partir de estos elementos, se hace necesario profundizar en las estrategias pedagógicas y comunicativas que orientan la participación en salud, las cuales se desarrollan en los siguientes apartados.
+    p.mb-0 A partir de estos elementos, se hace necesario profundizar en las estrategias pedagógicas y comunicativas que orientan la participación en salud, las cuales se desarrollan en los siguientes apartados.
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1 Estrategias pedagógicas
